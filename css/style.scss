@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D5E1EF;
+    
+    main{
+        height: 31em;
+        width:20em;
+        background: white;
+        border-radius: 0.8em;
+        padding: 1em;
+        
+        img{
+            height: 18em;
+            border-radius: 0.8em;
+        }
+        
+        .text{
+            padding: 1em;
+            text-align: center;
+            span{
+                font-size: 1.3em;
+                font-weight: 600;
+            }
+            p{
+                color: #7E838A;
+            }
+        }
+    }
+}
+

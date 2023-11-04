@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D5E1EF;
+}
+body main {
+  height: 31em;
+  width: 20em;
+  background: white;
+  border-radius: 0.8em;
+  padding: 1em;
+}
+body main img {
+  height: 18em;
+  border-radius: 0.8em;
+}
+body main .text {
+  padding: 1em;
+  text-align: center;
+}
+body main .text span {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+body main .text p {
+  color: #7E838A;
+}/*# sourceMappingURL=style.css.map */
